@@ -4,11 +4,11 @@ MATLAB implementation of the Modified Beer-Lambert Law (MBLL) for computing
 ΔHbR and ΔHbO from dual-wavelength fNIRS intensity data.
 
 ## Files
-
-- `CalcNIRS.m` — main function. Loads a `.mat` recording, computes ΔHbR / ΔHbO
-  for all 20 channels, and optionally plots selected channels.
 - `run_HW1.m` — execution script. Runs `CalcNIRS` on both recordings, saves the
   channel plots, and performs the FFT / SNR analysis on channel 1 of file 1.
+- `CalcNIRS.m` — main function. Loads a `.mat` recording, computes ΔHbR / ΔHbO
+  for all 20 channels, and optionally plots selected channels.
+
 
 ## Required data files (place in the same folder)
 
